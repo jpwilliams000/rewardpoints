@@ -8,10 +8,11 @@
 &nbsp; &nbsp; Username - embeddedDB<br />
 &nbsp; &nbsp; Password - embeddedPassword</p>
 
-![](src/main/resources/static/documentationImages/sampleResponse.png)
+<p><strong>Mock Data</strong><br />
+&nbsp; &nbsp; 16 records are located within data.sql file. Optionally, thousands of more can be generated via the RandomDataGenerator class. Just change the number of records to any number desired../>
 
-Unit Tests:
-    Minor coverage, can be easily expanded upon due to small testable java method style.
+![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)
+
 <p><strong>Unit Tests:</strong><br />
 &nbsp; &nbsp; Minor coverage, can be easily expanded upon due to small testable java method style.</p>
 
@@ -21,7 +22,7 @@ Unit Tests:
 <p><strong>API:</strong><br />
 &nbsp; &nbsp; GET http://localhost:8080/customer/points</p>
 
-Sample Response:
-
-![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)
 <p><strong>Sample Response:</strong></p>
+
+![](src/main/resources/static/documentationImages/sampleResponse.png)
+
