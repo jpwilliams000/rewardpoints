@@ -24,7 +24,7 @@
 
 <p><strong>Sample Response:</strong></p>
 
-No month is indicated if no transactions occured in that month. The points are indicated as 0 if at least one transaction occured, but resulted in no points (i.e. less than <51$ purchase)
+No month is indicated if no transactions occured in that month. The points are indicated as 0 if at least one transaction occured, but resulted in no points post summation of monthly total (i.e. purchase of less than <51$ purchase in a month)
 
 ![](src/main/resources/static/documentationImages/sampleResponse.png)
 
