@@ -9,7 +9,9 @@
 &nbsp; &nbsp; Password - embeddedPassword</p>
 
 <p><strong>Mock Data</strong><br />
-&nbsp; &nbsp; 16 records are located within data.sql file. Optionally, thousands of more can be generated via the RandomDataGenerator class. Just change the number of records to any number desired../>
+&nbsp; &nbsp; 16 records are located within data.sql file. 
+
+** Optionally, thousands of more can be generated via the RandomDataGenerator class. Just change the number of records to any number desired../>
 
 ![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)
 
