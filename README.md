@@ -8,6 +8,8 @@ Database web GUI Access:
     Username - embeddedDB
     Password - embeddedPassword
 
+![](src/main/resources/static/documentationImages/sampleResponse.png)
+
 Unit Tests:
     Minor coverage, can be easily expanded upon due to small testable java method style.
 
@@ -19,3 +21,4 @@ API:
 
 Sample Response:
 
+![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)
