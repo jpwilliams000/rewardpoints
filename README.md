@@ -1,24 +1,27 @@
-Datasource:
-    H2 Embedded Database
+<p><strong>Datasource:</strong><br />
+&nbsp; &nbsp; H2 Embedded Database</p>
 
-Database web GUI Access:
-    http://localhost:8080/h2-console
-    Driver - org.h2.Driver
-    JDBC URL - jdbc:h2:mem:dataSetDB
-    Username - embeddedDB
-    Password - embeddedPassword
+<p><strong>Database web GUI Access:</strong><br />
+&nbsp; &nbsp; http://localhost:8080/h2-console<br />
+&nbsp; &nbsp; Driver - org.h2.Driver<br />
+&nbsp; &nbsp; JDBC URL - jdbc:h2:mem:dataSetDB<br />
+&nbsp; &nbsp; Username - embeddedDB<br />
+&nbsp; &nbsp; Password - embeddedPassword</p>
 
 ![](src/main/resources/static/documentationImages/sampleResponse.png)
 
 Unit Tests:
     Minor coverage, can be easily expanded upon due to small testable java method style.
+<p><strong>Unit Tests:</strong><br />
+&nbsp; &nbsp; Minor coverage, can be easily expanded upon due to small testable java method style.</p>
 
-Performance:
-    Hashmap o(1)
+<p><strong>Performance:</strong><br />
+&nbsp; &nbsp; Hashmap o(1)</p>
 
-API:
-    GET http://localhost:8080/customer/points
+<p><strong>API:</strong><br />
+&nbsp; &nbsp; GET http://localhost:8080/customer/points</p>
 
 Sample Response:
 
 ![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)
+<p><strong>Sample Response:</strong></p>
