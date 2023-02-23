@@ -1,8 +1,10 @@
-This application is written dynamically to accept any number of months. 
+![](src/main/resources/static/documentationImages/assessment_requirements.png)
+
+This application is written dynamically to accept any number of months; the current dataset is 3 months as required. 
 
 This application will award points for purchases between 50-100$, despite the customer not spending more than 100$. 
 
-These two asumptions are inferred from the following statements:
+These two assumptions are inferred from the following statements:
 
 "A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point
 for every dollar spent between $50 and $100 in each transaction." <strong>(this provides no indication that customers should be rewarded points for spending less than 100$)</strong>
@@ -41,4 +43,9 @@ earned for each customer per month and total." <strong>(this provides indication
 No month is indicated if no transactions occured in that month. The points are indicated as 0 if at least one transaction occured, but resulted in no points post summation of monthly total (i.e. purchase of less than <51$ purchase in a month)
 
 ![](src/main/resources/static/documentationImages/sampleResponse.png)
+
+<p><strong>Future expansion on code:</strong></p>
+&nbsp; &nbsp; Increase unit coverage to 100%. Add logging per company requirements. Create global exception handler.<br />
+
+
 
