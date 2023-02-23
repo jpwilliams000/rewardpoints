@@ -12,6 +12,10 @@ This application will award points for purchases between 50-100$, despite the cu
 
 <p><strong>Assumptions with Reasoning:</strong><br /></p> 
 
+<p>#1 This application is written dynamically to accept any number of months; the current dataset is 3 months as required. 
+
+#2 This application will award points for purchases between 50-100$, despite the customer not spending more than 100$. 
+
 &quot;A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent between $50 and $100 in each transaction.&quot; <strong>(this provides no indication that customers should be rewarded points for spending less than 100$)</strong> 
 
 &quot;Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.&quot; <strong>(this provides indication that the dataset will only contain exactly 3 months worth of data)</strong></p>
