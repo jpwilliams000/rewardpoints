@@ -5,11 +5,6 @@
 
 ![](src/main/resources/static/documentationImages/assessment_requirements.png)
 
-<p>This application is written dynamically to accept any number of months; the current dataset is 3 months as required. 
-
-This application will award points for purchases between 50-100$, despite the customer not spending more than 100$. 
-
-
 <p><strong>Assumptions with Reasoning:</strong><br /></p> 
 
 <p>#1 This application is written dynamically to accept any number of months; the current dataset is 3 months as required. 
