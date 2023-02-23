@@ -21,7 +21,7 @@
 <p><strong>Performance:</strong><br />
 &nbsp; &nbsp; Hashmap o(1)</p>
 
-<p><strong>API:</strong><br />
+<p><strong>API Endpoints:</strong><br />
 &nbsp; &nbsp; GET http://localhost:8080/customer/points</p>
 
 <p><strong>Sample Response:</strong></p>
