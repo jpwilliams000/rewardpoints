@@ -5,10 +5,10 @@ This application will award points for purchases between 50-100$, despite the cu
 These two asumptions are inferred from the following statements:
 
 "A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point
-for every dollar spent between $50 and $100 in each transaction." *(this provides no indication that customers should be rewarded points for spending less than 100$)
+for every dollar spent between $50 and $100 in each transaction." <strong>(this provides no indication that customers should be rewarded points for spending less than 100$)</strong>
 
 "Given a record of every transaction during a three month period, calculate the reward points
-earned for each customer per month and total." *(this provides indication that the dataset will only contain exactly 3 months worth of data)
+earned for each customer per month and total." <strong>(this provides indication that the dataset will only contain exactly 3 months worth of data)</strong>
 
 <p><strong>Datasource:</strong><br />
 &nbsp; &nbsp; H2 Embedded Database</p>
