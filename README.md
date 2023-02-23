@@ -1,16 +1,8 @@
-![](src/main/resources/static/documentationImages/assessment_requirements.png)
+<p>![](src/main/resources/static/documentationImages/assessment_requirements.png)</p>
 
-This application is written dynamically to accept any number of months; the current dataset is 3 months as required. 
+<p><em>Image 1: Assessment requirements provided by company.</em></p>
 
-This application will award points for purchases between 50-100$, despite the customer not spending more than 100$. 
-
-These two assumptions are inferred from the following statements:
-
-"A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point
-for every dollar spent between $50 and $100 in each transaction." <strong>(this provides no indication that customers should be rewarded points for spending less than 100$)</strong>
-
-"Given a record of every transaction during a three month period, calculate the reward points
-earned for each customer per month and total." <strong>(this provides indication that the dataset will only contain exactly 3 months worth of data)</strong>
+<p>This application is written dynamically to accept any number of months; the current dataset is 3 months as required. This application will award points for purchases between 50-100$, despite the customer not spending more than 100$. These two assumptions are inferred from the following statements: &quot;A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent between $50 and $100 in each transaction.&quot; <strong>(this provides no indication that customers should be rewarded points for spending less than 100$)</strong> &quot;Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.&quot; <strong>(this provides indication that the dataset will only contain exactly 3 months worth of data)</strong></p>
 
 <p><strong>Datasource:</strong><br />
 &nbsp; &nbsp; H2 Embedded Database</p>
@@ -23,14 +15,10 @@ earned for each customer per month and total." <strong>(this provides indication
 &nbsp; &nbsp; Password - embeddedPassword</p>
 
 <p><strong>Mock Data</strong><br />
-&nbsp; &nbsp; 16 records are located within data.sql file. 
-
-** Optionally, thousands of more records can be generated via the RandomDataGenerator class. Just change the local variable 'number of records' and 'number of customers' to any number desired../>
-
-![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)
+&nbsp; &nbsp; 16 records are located within data.sql file. ** Optionally, thousands of more records can be generated via the RandomDataGenerator class. Just change the local variable &#39;number of records&#39; and &#39;number of customers&#39; to any number desired../&gt; ![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)&nbsp;<em>Image 2: Data set created for project. Embedded database Select *. Schema created during connection to datasource.Table created on initalization of project via JPA entities. Data loaded on initalization of project via data.sql</em></p>
 
 <p><strong>Unit Tests:</strong><br />
-&nbsp; &nbsp; Currently 80%, can be expanded upon/p>
+&nbsp; &nbsp; Currently 80%, can be expanded upon/p&gt;</p>
 
 <p><strong>Performance:</strong><br />
 &nbsp; &nbsp; Hashmap o(1)</p>
@@ -40,12 +28,8 @@ earned for each customer per month and total." <strong>(this provides indication
 
 <p><strong>Sample Response:</strong></p>
 
-No month is indicated if no transactions occured in that month. The points are indicated as 0 if at least one transaction occured, but resulted in no points post summation of monthly total (i.e. purchase of less than <51$ purchase in a month)
-
-![](src/main/resources/static/documentationImages/sampleResponse.png)
+<p>![](src/main/resources/static/documentationImages/sampleResponse.png)&nbsp;<em>Image 3: Example of payload response to web api endpoint. No month indicated if no purchases occured during that month. Month has a 0 and is present if purchases were made during that month, but no purchases exceeded 51$, i.e. no points awarded.</em></p>
 
 <p><strong>Future expansion on code:</strong></p>
-&nbsp; &nbsp; Increase unit coverage to 100%. Add logging per company requirements. Create global exception handler.<br />
 
-
-
+<p>&nbsp; &nbsp; Increase unit coverage to 100%. Add logging per company requirements. Create global exception handler.</p>
