@@ -18,13 +18,13 @@ public class CustomerTransaction {
     @Column(name = "transactionId")
     @Type(type = "uuid-char")
     private UUID transactionId;
-    @Column(name = "customerId")
+    @Column(name = "customerId", nullable = false)
     private long customerId;
 
-    @Column(name = "dateOfPurchase")
+    @Column(name = "dateOfPurchase", nullable = false)
     private LocalDate dateOfPurchase;
 
-    @Column(name = "costOfPurchase")
+    @Column(name = "costOfPurchase", nullable = false)
     private BigDecimal costOfPurchase;
 
     public Month getMonthOfPurchase() {
