@@ -16,7 +16,7 @@
 ![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)
 
 <p><strong>Unit Tests:</strong><br />
-&nbsp; &nbsp; Minor coverage, can be easily expanded upon due to small testable java method style.</p>
+&nbsp; &nbsp; Currently 80%, will be expanded upon/p>
 
 <p><strong>Performance:</strong><br />
 &nbsp; &nbsp; Hashmap o(1)</p>
