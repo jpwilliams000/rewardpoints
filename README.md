@@ -11,12 +11,12 @@
 <p><strong>Mock Data</strong><br />
 &nbsp; &nbsp; 16 records are located within data.sql file. 
 
-** Optionally, thousands of more records can be generated via the RandomDataGenerator class. Just change the local variable 'number of records' to any number desired../>
+** Optionally, thousands of more records can be generated via the RandomDataGenerator class. Just change the local variable 'number of records' and 'number of customers' to any number desired../>
 
 ![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)
 
 <p><strong>Unit Tests:</strong><br />
-&nbsp; &nbsp; Currently 80%, will be expanded upon/p>
+&nbsp; &nbsp; Currently 80%, can be expanded upon/p>
 
 <p><strong>Performance:</strong><br />
 &nbsp; &nbsp; Hashmap o(1)</p>
