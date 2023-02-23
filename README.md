@@ -34,7 +34,7 @@
 ![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)&nbsp;
 
 <p><strong>Unit Tests:</strong><br />
-&nbsp; &nbsp; Currently 80%, can be expanded upon/p&gt;</p>
+&nbsp; &nbsp; Currently 80%, can be expanded upon&gt;</p>
 
 <p><strong>Performance:</strong><br />
 &nbsp; &nbsp; Hashmap o(1)</p>
