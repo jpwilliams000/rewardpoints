@@ -45,7 +45,8 @@ class calculatePointsByMonthTest {
 		transactionList.add(transaction2);
 
 		HashMap<Month, Integer> response = customerPointsService.calculatePointsByMonth(transactionList);
-		assertEquals("{FEBRUARY=5, JANUARY=440}", response.toString());
+		assertEquals(5, response.get(Month.FEBRUARY));
+		assertEquals(440, response.get(Month.JANUARY));
 	}
 
 }
