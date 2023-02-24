@@ -21,29 +21,32 @@ public class CustomerPointsService {
         this.customerTransactionsRepository = customerTransactionsRepository;
     }
 
+    /*
+    * Variables are intentionally defined with int datatype as the type casting will default a truncation of decimals.
+    * This is intentional and consistent in that the requirement awards a point, only if customer transaction is a full dollar expense.
+    * May need reconsideration of data types if future requirements are altered to consider fractional dollar thresholds.
+     */
     public int calculatePointsForSingleTransaction(CustomerTransaction ct){
         int pointsForPurchase = 0;
         int doublePointsThreshold = 100;
         int doublePointsMultiplier = 2;
         int singlePointsThreshold = 50;
 
-        float purchaseAmount = ct.getCostOfPurchase().floatValue();
-
-        if(purchaseAmount > doublePointsThreshold) {
+        if(ct.getCostOfPurchase().intValue() > doublePointsThreshold) {
             pointsForPurchase = doublePointsMultiplier * (ct.getCostOfPurchase().intValue() - doublePointsThreshold) + singlePointsThreshold;
-        } else if (purchaseAmount > singlePointsThreshold) {
+        } else if (ct.getCostOfPurchase().intValue() > singlePointsThreshold) {
             pointsForPurchase = ct.getCostOfPurchase().intValue() - singlePointsThreshold;
         }
         return pointsForPurchase;
     }
 
     public int calculatePointsForManyTransactions(List<CustomerTransaction> customerTransactionList){
-        Integer totalPoints = 0;
+        int totalPoints = 0;
         for(CustomerTransaction ct : customerTransactionList) {
             totalPoints += calculatePointsForSingleTransaction(ct);
         }
         return totalPoints;
-    };
+    }
 
     public HashMap<Month, Integer> calculatePointsByMonth(List<CustomerTransaction> customerTransactionList){
         HashMap<Month, Integer> monthlyPoints = new HashMap<>();
@@ -57,7 +60,7 @@ public class CustomerPointsService {
         });
 
         return monthlyPoints;
-    };
+    }
 
     public Integer summationMonthlyPoints(HashMap<Month, Integer> monthlyPointsMap) {
         Integer totalPoints = 0;
