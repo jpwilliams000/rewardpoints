@@ -51,4 +51,4 @@ Month has a 0 and is present if purchases were made during that month, but no pu
 
 <p><strong>Future expansion on code:</strong></p>
 
-<p>&nbsp; &nbsp; Increase unit coverage to 100%. Add logging per company requirements. Create global exception handler.</p>
+<p>&nbsp; &nbsp; Increase unit coverage from 80% to 100%. Add logging per company requirements. Create global exception handler.</p>
