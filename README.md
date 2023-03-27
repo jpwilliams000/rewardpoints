@@ -7,13 +7,9 @@
 
 <p><strong>Assumptions with Reasoning:</strong><br /></p> 
 
-<p>#1 This application is written dynamically to accept any number of months; the current dataset is 3 months as required. 
+<p>#1 This application is written dynamically to accept any number of months; the current dataset is 3 months as required.
 
-#2 This application will award points for purchases between 50-100$, despite the customer not spending more than 100$. 
-
-(Requirements provide no indication that customers should be rewarded points for spending less than 100$)</strong> 
-
-(Requirements provide indication that the dataset will contain exactly 3 months worth of data, therefore no filtering is performed on SQL query for greater performance)</strong></p>
+#2 This application will award points for purchases between 50-100$, despite the customer not spending more than 100$.
 
 <p><strong>Datasource:</strong><br />
 &nbsp; &nbsp; H2 Embedded Database</p>
@@ -28,9 +24,11 @@
 <p><strong>Mock Data</strong><br /></p>
 &nbsp; &nbsp; 16 records are located within data.sql file. ** Optionally, thousands of more records can be generated via the RandomDataGenerator class. Just change the local variable &#39;number of records&#39; and &#39;number of customers&#39; to any number desired. 
 
+Schema created during initial connection to datasource. Table created on initalization of project via JPA entities. Data loaded on initalization of project via data.sql
+
 &nbsp;
 
-<em>Image 2: Data set created for project. Embedded database Select *. Schema created during connection to datasource.Table created on initalization of project via JPA entities. Data loaded on initalization of project via data.sql</em>
+<em>Image 2: Data set created for project. Embedded database Select *. </em>
 ![](src/main/resources/static/documentationImages/embeddedDBPhoto.png)&nbsp;
 
 <p><strong>Unit Tests:</strong><br />
