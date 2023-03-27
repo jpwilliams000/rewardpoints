@@ -5,7 +5,7 @@
 
 ![](src/main/resources/static/documentationImages/assessment_requirements.png)
 
-<p><strong>Assumptions with Reasoning:</strong><br /></p> 
+<p><strong>Assumptions implemented:</strong><br /></p> 
 
 <p>#1 This application is written dynamically to accept any number of months; the current dataset is 3 months as required.
 
