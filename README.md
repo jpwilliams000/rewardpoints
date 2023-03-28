@@ -7,9 +7,9 @@
 
 <p><strong>Assumptions implemented:</strong><br /></p> 
 
-<p>#1 This application is written dynamically to accept any number of months; the current dataset is 3 months as required.
+<p>#1 This application is written dynamically to accept any number of months; the current dataset is 3 months as required. Therefore no filtering on sql is performed for greater performance.
 
-#2 This application will award points for purchases between 50-100$, despite the customer not spending more than 100$.
+#2 This application will award points for purchases between 50-100$, despite the customer not spending more than 100$. This is assumed as the requirements do not specifically indicate points for purchases less than 100$. 
 
 <p><strong>Datasource:</strong><br />
 &nbsp; &nbsp; H2 Embedded Database</p>
